@@ -1,0 +1,45 @@
+section.hero {
+  min-height: calc(100vh - 80px);
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+}
+
+section.hero div.hero-text {
+   display: grid;
+   gap: 16px; 
+}
+
+section.hero h1 {
+   font-size: 2.8rem; 
+   color: rgb(158, 158, 252);
+   
+}
+
+section.hero div.hero-text p {
+font-size: 1.5rem;
+}
+
+
+/*! add comment later */
+/* section.hero h1, section.hero p {
+    height: fit-content;
+    text-align: center;
+} */
+
+section.hero button {
+    background-color: rgb(77, 75, 189);
+    border: 2px solid rgb(158, 158, 252);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 2px 2px 3px 0px black;
+}
+
+section.hero button a {
+    color: rgb(253, 253, 255);
+    text-decoration: none;
+}
