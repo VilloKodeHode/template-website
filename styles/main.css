@@ -3,6 +3,7 @@
 @import "./about.css";
 @import "./projects.css";
 @import "./buttons.css";
+@import "./footer.css";
 
 * {
   padding: 0;
@@ -19,15 +20,17 @@ body {
 }
 
 main {
-    padding-inline: 64px;
+    /* padding-inline: 64px; */
     display: grid;
-    gap: 64px;
+    /* gap: 64px; */
     /* margin: 64px 0; */
 }
 
 /** styler ALLE seksjoner på siden: */
 
 section {
+    margin-inline: 64px;
+    margin-top: 128px;
     /* border: 2px solid red; */   
     display: flex;
     align-items: center; 
@@ -37,5 +40,10 @@ section {
 }
 
 section:last-of-type{
-    margin-bottom: 64px;
+    margin-bottom: 128px;
+}
+
+div.divider {
+    background-color: rgb(53, 54, 63);
+    height: 160px;
 }
