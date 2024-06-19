@@ -28,13 +28,13 @@ header nav a {
   border-radius: 8px;
   padding: 8px;
   box-shadow: 2px 2px 3px 0px var(--black);
-  transition: 0.3s ease;
+  transition: 0.3s ease transform;
 }
 
 header nav a:hover {
-    scale: 105%;
+  transform: scale(105%)
 }
 
 header nav a:active {
-    scale: 95%;
+  transform: scale(95%)
 }
