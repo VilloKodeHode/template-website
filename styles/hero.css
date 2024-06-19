@@ -22,7 +22,7 @@ section.hero div.hero-text {
 
 section.hero h1 {
    font-size: 2.8rem; 
-   color: rgb(158, 158, 252);
+   color: var(--secondary);
 }
 
 section.hero div.hero-text p {

@@ -15,7 +15,7 @@ section.projects div.project-card {
   width: 300px;
   display: grid;
   gap: 16px;
-  background-color: #4e516e;
+  background-color: var(--tertiery);
   padding: 16px;
 }
 
