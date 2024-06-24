@@ -2,9 +2,9 @@ button.standard-button {
     background-color: var(--primary);
     border: 2px solid var(--secondary);
     border-radius: 8px;
-    padding: 8px;
     box-shadow: 2px 2px 3px 0px var(--black);
     transition: 1s ease transform;
+    display: flex;
 }
 
 button.standard-button:hover {
@@ -14,9 +14,7 @@ transform: scale(105%)
 button.standard-button a {
     color: var(--white);
     text-decoration: none;
-    transition: 1s ease all;
+    width: 100%;
+    padding: 8px;
 }
 
-button.standard-button a {
-    transform: scale(105%)
-}
